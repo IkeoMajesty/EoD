@@ -1,0 +1,76 @@
+/* Georgia */
+@font-face {
+    font-family: "Georgia";
+    src: url("Georgia.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Georgia";
+    src: url("Georgia.ttf");
+    src: url("Georgia Bold Italic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Georgia";
+    src: url("Georgia Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Georgia";
+    src: url("Georgia Italic.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Trebuchet */
+@font-face {
+    font-family: "TrebuchetMS";
+    src: url("Trebuchet MS.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TrebuchetMS";
+    src: url("Trebuchet MS Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "CaslonPro";
+    src: url("ACaslonPro-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "CaslonPro";
+    src: url("ACaslonPro-BoldItalic.otf");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "CaslonPro";
+    src: url("ACaslonPro-Italic.otf");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "CaslonPro";
+    src: url("ACaslonPro-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Voltaire";
+    src: url("Voltaire-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+

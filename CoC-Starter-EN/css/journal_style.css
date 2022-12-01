@@ -1,0 +1,258 @@
+/* Journal parameters */
+
+.game.system-CoC7 .journal-entry-content {
+    /*min-width: 660px;    */
+}
+
+/* Journal Top Header */
+.game.system-CoC7 .journal-entry-content .journal-header {
+
+    background-image: url("../images/ribbon_red_vertical.webp");
+    background-position: 5px 0;
+    background-repeat: no-repeat;
+    min-height: 75px;
+    padding-left: 115px;
+}
+
+.game.system-CoC7 .journal-entry-content .journal-header.blue {
+    background-image: url("../images/ribbon_blue_vertical.webp");
+}
+
+.game.system-CoC7 .journal-entry-content .journal-header.green {
+    background-image: url("../images/ribbon_green_vertical.webp");
+}
+
+.game.system-CoC7 .journal-entry-content .journal-header.gold {
+    background-image: url("../images/ribbon_blue_vertical.webp");
+}
+
+.game.system-CoC7 .journal-entry-content .journal-header .title {
+
+    font-family: 'Voltaire', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: xx-large;
+    background: transparent;
+    border: none;
+    min-height: 75px;
+    color: rgb(58, 68, 42);
+    display: block;
+    text-align: left;
+    height: auto;
+}
+
+/* Journal Headers */
+.game.system-CoC7 .journal-entry-content h1,
+.game.system-CoC7 .journal-entry-content h2,
+.game.system-CoC7 .journal-entry-content h3,
+.game.system-CoC7 .journal-entry-content h4 {
+    color:  rgb(58, 68, 42);
+    border-bottom: none;
+}
+
+
+.game.system-CoC7 .journal-entry-content h1,
+.game.system-CoC7 .journal-entry-content h2 {
+    font-family: 'Voltaire', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.game.system-CoC7 .journal-entry-content h1 {
+    font-size: 24pt;
+}
+
+.game.system-CoC7 .journal-entry-content h2 {
+    font-size: 14pt;
+}
+
+.game.system-CoC7 .journal-entry-content h3,
+.game.system-CoC7 .journal-entry-content h4 {
+    font-family: 'CaslonPro', 'Times New Roman', Times, serif;
+}
+
+.game.system-CoC7 .journal-entry-content h3 {
+    font-weight: bold;
+}
+
+.game.system-CoC7 .journal-entry-content h4 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Journal Pages */
+
+.game.system-CoC7 .journal-entry-content .journal-entry-page::before, 
+.game.system-CoC7 .journal-entry-content .journal-entry-page::after {
+
+    content: '';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+
+.game.system-CoC7 .journal-entry-content .journal-entry-page::before {
+    background-image: url("../images/page_ornament.webp");
+    min-height: 46px;
+}
+
+.game.system-CoC7 .journal-entry-content .journal-entry-page::after {
+    margin-top: 1rem ;
+    background-image: url("../images/line_green_1500.webp") ;
+    min-height: 22px;
+    background-repeat: repeat-x;
+}
+
+/* Block quotes */
+.game.system-CoC7 .journal-entry-content blockquote {
+    background-color: rgba(79, 39, 1, 0.122);
+    border-radius: 20px;
+    padding: 10px;
+    font-style: italic;
+    border-left: none;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+.game.system-CoC7 .journal-entry-content blockquote p {
+    position: relative;
+}
+
+.game.system-CoC7 .journal-entry-content blockquote p::before,
+.game.system-CoC7 .journal-entry-content blockquote p::after {
+    font-size: 14px;
+    position: absolute;
+}
+
+.game.system-CoC7 .journal-entry-content blockquote p::before {
+    content: open-quote;
+    left: -7px;
+
+}
+
+.game.system-CoC7 .journal-entry-content blockquote p::after {
+    content: close-quote;
+}
+
+/*
+body.game.system-CoC7 .journal-entry-content header.window-header h4.window-title {
+	font-size: 160%;
+}
+
+body.game.system-CoC7 .journal-entry-content #sidebar h3,
+body.game.system-CoC7 .journal-entry-content header.window-header h4.window-title,
+body.game.system-CoC7 .journal-entry-content #sidebar h4 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-style: normal;
+	color: #fff;
+}
+
+body.game.system-CoC7 .journal-entry-content {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: left;
+	column-count: 2;
+	color: #262523;
+	background-color: white;
+}
+
+.game.system-CoC7 .journal-entry-content .app.journal-sheet .editor-content {
+	padding: 0.5rem;
+}
+*/
+
+/* Journal Paragraphs */
+
+.game.system-CoC7 .journal-entry-content p:nth-child(1) {
+    text-indent: 0%;
+}
+
+.game.system-CoC7 .journal-entry-content p {
+    text-indent: 0.3175cm;
+}
+
+/* Example boxes */
+
+.game.system-CoC7 .journal-entry-content div.example {
+    /*background-color: #EFEEDF;*/
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.game.system-CoC7 .journal-entry-content div.example h1,
+.game.system-CoC7 .journal-entry-content div.example h2,
+.game.system-CoC7 .journal-entry-content div.example h3,
+.game.system-CoC7 .journal-entry-content div.example h4,
+.game.system-CoC7 .journal-entry-content div.example h5,
+.game.system-CoC7 .journal-entry-content div.example h6 {
+    font-family: 'CaslonPro', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    /* color: #535f53; */
+    color: #3f5426;
+    border-bottom: none;
+}
+
+.game.system-CoC7 .journal-entry-content div.example::before {
+    content: '';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    background-image: url("../images/line_green.webp");
+    min-height: 14px;
+}
+
+.game.system-CoC7 .journal-entry-content div.example::after {
+    content: '';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    background-image: url("../images/green_top_ornament.webp");
+    min-height: 57px;
+}
+
+/* Journal Tables */
+.game.system-CoC7 .journal-entry-content tr th {
+    background-color: #442e0f;
+    font-weight: bold;
+    color: white;
+
+}
+
+.game.system-CoC7 .journal-entry-content tr:nth-child(odd) {
+    background-color: white;
+}
+
+.game.system-CoC7 .journal-entry-content tr:nth-child(even) {
+    background-color: #442e0f;
+    color: white;
+}
+
+/*
+.big-letter {
+	font-size: 200%;
+	padding: 3px 2px;
+	margin-right: 3px;
+	float: left;
+	text-indent: 0%;
+}
+*/
+
+
+
+/* Others */
+.game.system-CoC7 .journal-entry-content a.entity-link,
+.game.system-CoC7 .journal-entry-content a.content-link,
+.game.system-CoC7 .journal-entry-content a.inline-roll {
+	background-color: #d3c5c6;
+	border: 1px solid #6E1417;
+    color: #6E1417;
+}
+
+.game.system-CoC7 .journal-entry-content .entity-link i,
+.game.system-CoC7 .journal-entry-content .content-link i,
+.game.system-CoC7 .journal-entry-content .inline-roll i {
+    color: #6E1417;
+}
