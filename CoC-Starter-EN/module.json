@@ -1,74 +1,51 @@
 {
-    "name": "CoC-Starter-EN",
-    "title": "Call of Cthulhu - Starter Set",
-    "description": "<p>Starter Set contains 4 scenario (one single player adventure which is an introduction to the game as well as 3 full scenarios.</p>",
-    "version": "0.1",
-    "compatibility": {
-        "minimum": "10",
-        "verified": "10"
-      },
-    "minimumCoreVersion": "10.0",
-    "compatibleCoreVersion": "10.99",
-    "authors": [
-        {
-        "name": "Ariel Sawicki",
-        "discord": "Ikeo#8888"
-        },
-        { 
-        "name": "Az"
-        }
-        ],
-    "styles": [
-        "fonts/coc_fonts.css",
-        "css/journal_style.css"
-        ],
-    "packs": [
-	{
-        "label": "starter-set-paper-chase",
-        "entity": "Scene",
-        "name": "monsters-traditional",
-        "path": "packs/starter-set-paper-chase.db",
-        "system": "CoC7",
-        "package": "world"	
-	},
-	{
-        "label": "starter-set-pregen",
-        "entity": "Actor",
-        "name": "monsters-traditional",
-        "path": "packs/starter-set-pregen.db",
-        "system": "CoC7",
-        "package": "world"	
-	},
-	{
-        "label": "edge-of-darkness-adventure",
-        "entity": "Adventure",
-        "name": "edge-of-darkness",
-        "path": "packs/edge-of-darkness-adventure.db",
-        "system": "CoC7",
-        "package": "world"	
-	}
-
-	
+  "id": "CoC-Starter-EN",
+  "version": "0.1",
+  "title": "Call of Cthulhu - Starter Set",
+  "description": "Starter Set contains 4 scenario (one single player adventure which is an introduction to the game as well as 3 full scenarios.",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "manifest": "https://github.com/IkeoMajesty/EoD/edit/main/CoC-Starter-EN/module.json",
+	"download": "https://github.com/IkeoMajesty/EoD/blob/806899904b12197b04e4205cb908b5ffed5bfedd/CoC-Starter-EN/CoC-Starter-EN.zip"
+  "authors": [
+    {
+      "name": "Ariel Sawicki",
+      "discord": "Ikeo#8888"
+    },
+    {
+      "name": "Az"
+    }
+  ],
+  "styles": [
+    "fonts/coc_fonts.css",
+    "css/journal_style.css"
     ],
-    "relationships": {
-        "systems": [{
-          "id": "CoC7",
-          "type": "system",
-          "manifest": "https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/releases/latest/download/system.json",
-          "compatibility": {
-            "verified": "0.9.1"
-          }
-        }],
-        "requires": [{
-          "id": "monks-active-tiles",
-          "type": "module",
-          "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
-          "compatibility": {
-            "verified": "10.2"
-          }
-        }]
-      },
-    "url": "",
-    "manifest": "https://github.com/IkeoMajesty/EoD/blob/main/CoC-Starter-EN/module.json",
-    "download": "https://github.com/IkeoMajesty/EoD/blob/main/CoC-Starter-EN/CoC-Starter-EN.zip"
+  "packs": [
+    {
+      "name": "edge-of-darkness",
+      "label": "edge-of-darkness-adventure",
+      "path": "packs/edge-of-darkness-adventure.db",
+      "type": "Adventure"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "CoC7",
+        "compatibility": {
+          "minimum": "0.9.1"
+        }
+      }
+    ],
+    "requires": [{
+      "id": "monks-active-tiles",
+      "type": "module",
+      "compatibility": {
+        "verified": "10.2"
+      }
+    }]
   }
+}
