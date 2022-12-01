@@ -9,7 +9,7 @@
     "maximum": "10"
   },
   "manifest": "https://github.com/IkeoMajesty/EoD/blob/main/CoC-Starter-EN/module.json",
-  "download": "hhttps://github.com/IkeoMajesty/EoD/blob/main/CoC-Starter-EN/CoC-Starter-EN.zip",
+  "download": "https://github.com/IkeoMajesty/EoD/blob/main/CoC-Starter-EN/CoC-Starter-EN.zip",
   "authors": [
     {
       "name": "Ariel Sawicki",
